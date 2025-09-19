@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebe5d1;
+}
+.nav-item{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.carouselslide{
+    opacity: 0.5;
+}
+.navbar{
+    background-color: rgb(39, 39, 139);
+    margin-top: 2px;
+    
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    background: #fec400;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover{
+    color: #fec400;
+}
+.nav-link {
+    padding: 20px 5px;
+    transition: 0.2s;
+} 
+
+
+#searchbutton{
+    margin-right: 170px;
+}
+.alert{
+    height: 70px;
+    margin-bottom: 0px;
+}
+#cmp{
+    margin: 0px;
+    padding: 0px;
+    position: static;
+}
+#board{
+    margin-top: 40px;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+#latest-news, #notice-board, #event-list{
+    height: 450px;
+}
+
+#tg{
+    position: relative;
+    bottom: 400px;
+    font-weight: bolder;
+    font-size: 60px;
+    color: rgb(248, 243, 243);
+    text-shadow: 6px 4px 6px rgba(5, 229, 136, 0.8)
+    
+}#teacher-guardian-scheme p{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+  
+#footer{
+    background-color: rgb(225, 190, 130);
+    width: 100%;
+    border-top: #0c0c0c;
+    border-width: 3px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 300px;
+}
+#endings{
+    margin-top: 30px;
+
+}
+#iconss ul{
+    list-style: none;
+    display: inline-block;
+
+}
+.container{
+    border: radius 50px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:380px){
+    
+}
